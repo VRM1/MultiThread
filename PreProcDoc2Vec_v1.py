@@ -130,7 +130,7 @@ if __name__ == '__main__':
     
     lines_per_file = 20000
     dbs =[['Clothing_Shoes_and_Jewelry_reviews','Men_Clothing_graph_4class'],['Clothing_Shoes_and_Jewelry_reviews','Women_Clothing_graph_4class'],\
-          ['Movies_and_TV_reviews','Movies_graph_2class']]
-    dbname=dbs[1][0]
-    grph_name = dbs[1][1]
+          ['Movies_and_TV_reviews','Movies_graph_4class']]
+    dbname=dbs[2][0]
+    grph_name = dbs[2][1]
     CleanData(dbname,grph_name,lines_per_file)
