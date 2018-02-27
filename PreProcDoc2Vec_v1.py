@@ -129,8 +129,10 @@ def CleanData(rev_name,grph_name,lop):
 if __name__ == '__main__':
     
     lines_per_file = 20000
-    dbs =[['Clothing_Shoes_and_Jewelry_reviews','Men_Clothing_graph_4class'],['Clothing_Shoes_and_Jewelry_reviews','Women_Clothing_graph_4class'],\
-          ['Movies_and_TV_reviews','Movies_graph_4class'],['Musical_Instrument','Musical_Instrument_graph_2class']]
-    dbname=dbs[2][0]
-    grph_name = dbs[2][1]
+
+    dbs =[['Clothing_Shoes_and_Jewelry_reviews','Men_Clothing_graph_4class'],['Clothing_Shoes_and_Jewelry_reviews',\
+            'Women_Clothing_graph_4class'],['Movies_and_TV_reviews','Movies_graph_4class'],\
+          ['Musical_Instrument','Musical_Instrument_graph_2class']]
+    dbname=dbs[3][0]
+    grph_name = dbs[3][1]
     CleanData(dbname,grph_name,lines_per_file)
