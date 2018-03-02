@@ -136,6 +136,6 @@ if __name__ == '__main__':
           ['Musical_Instrument_reviews','Musical_Instrument_graph_4class'],\
           ['Electronics_reviews','Electronics_graph_2class'],\
           ['Books_reviews','Books_graph_4class']]
-    dbname=dbs[4][0]
-    grph_name = dbs[4][1]
+    dbname=dbs[5][0]
+    grph_name = dbs[5][1]
     CleanData(dbname,grph_name,lines_per_file)
